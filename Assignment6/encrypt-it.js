@@ -12,7 +12,9 @@
   window.addEventListener("load", init);
 
   /**
-   * TODO: Write a function comment using JSDoc.
+   * On window load this function retrieves the encyptButton, inputText button, and result text area.
+   * This assigns handleClick() to the encryptButton click event.
+   * This assigns handlReset to the resetButton click event.
    */
   function init() {
     // Note: In this function, we usually want to set up our event handlers
